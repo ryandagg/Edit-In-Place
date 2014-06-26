@@ -1,0 +1,34 @@
+.static, .static-editing {
+	display: inline-block;
+	height: 40px;
+	width: 15%;
+	margin-left: 100px;
+	margin-top: 30px;
+	text-align: center;
+	line-height: 40px;
+	border-width: 3px;
+	border-style: solid;
+	position: relative;
+	/*padding: 1px;*/
+}
+
+.static {
+	background-color: lightblue;
+	border-color: black;
+}
+
+.static-editing {
+	background-color: lightgreen;
+	border-color: gray;
+
+}
+
+input {
+	width: 96%;
+	height: 85%;
+}
+
+.saveButton {
+	position: absolute;
+	top: 50px;
+}
